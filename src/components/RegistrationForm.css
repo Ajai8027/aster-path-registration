@@ -122,8 +122,8 @@
   padding: 14px 18px;
   border: 2px solid var(--color-error);
   border-radius: 12px;
-  background: #fff5f4;
-  color: #7d2422;
+  background: var(--color-error-bg);
+  color: var(--color-error-text);
 }
 
 .registration__error-summary p {

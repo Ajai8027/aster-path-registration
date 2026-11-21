@@ -56,7 +56,7 @@ aster-path-landing/
 │   ├── index.html              # Vite development entry (served by npm run dev)
 │   ├── main.jsx                # React entry point
 │   └── App.jsx                 # page composition and skip link
-├── scripts/create-standalone.mjs  # copies dist/index.html to index.html and standalone.html
+├── scripts/copy-build.mjs         # copies dist/index.html to index.html and standalone.html
 ├── index.html                  # generated self-contained page (open directly)
 ├── standalone.html             # generated alias (open directly)
 ├── vite.config.js              # Vite root src, single-file output to dist
@@ -100,7 +100,7 @@ All supplied PNG assets are under 200 KB (hero illustration: 29 KB). SVGs are im
 
 ## Testing
 
-`QA_RESULTS.csv` records the actual results of the test cases. Screenshots at 375, 390, 768, 1024 and 1440px in Chrome and Firefox are stored in `evidence/screenshots/`, and the production build output is in `evidence/build.log`. Direct-file and dev-server checks are recorded in `evidence/standalone-test.txt`; served-build and live-deployment results are in `evidence/test-results.json` and `evidence/live-test-results.json`.
+`QA_RESULTS.csv` records the actual results of the test cases. Screenshots at 375, 390, 768, 1024 and 1440px in Chrome and Firefox are stored in `evidence/screenshots/`, and the production build output is in `evidence/build.log`. Direct-file and dev-server checks are recorded in `evidence/standalone-test.txt`; served-build and live-deployment results are in `evidence/test-results.json` and `evidence/live-test-results.json`. Layout measurements after the code cleanup are in `evidence/layout-metrics.txt`.
 
 ## Deployment
 

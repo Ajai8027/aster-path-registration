@@ -8,6 +8,10 @@
   --color-panel: #e9f0f2;
   --color-white: #ffffff;
   --color-error: #a3312f;
+  --color-error-bg: #fff5f4;
+  --color-error-text: #7d2422;
+  --color-green-dark: #176a5b;
+  --color-footer-text: #c8d5db;
 
   --radius-sm: 13px;
   --radius-md: 16px;
@@ -130,7 +134,7 @@ a {
 }
 
 .button:hover {
-  background: #176a5b;
+  background: var(--color-green-dark);
 }
 
 .button:active {

@@ -14,15 +14,15 @@ Also checked:
 Browsers: Google Chrome 158.0.8127.37 and Mozilla Firefox 159.0 (headless)
 
 Results
-- Chrome, file index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Chrome, file standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Chrome, file dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Chrome, dev server: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Firefox, file index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Firefox, file standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Firefox, file dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
-- Firefox, dev server: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, file index.html: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, file standalone.html: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, file dist/index.html: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, dev server: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, file index.html: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, file standalone.html: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, file dist/index.html: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, dev server: root rendered (11,954 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
 
-Build output: dist contains only index.html (168,809 bytes). It has one inline <script>, one inline <style>, five data:image/svg+xml URIs, an inline data-URI favicon and zero external src/href references.
+Build output: dist contains only index.html (168,990 bytes). It has one inline <script>, one inline <style>, six data:image/svg+xml URIs (five brand images plus the favicon) and zero external file references.
 
 Note: src/index.html is the Vite development entry and is served by `npm run dev`. The root index.html is generated build output and is refreshed by `npm run build`; do not edit it by hand.

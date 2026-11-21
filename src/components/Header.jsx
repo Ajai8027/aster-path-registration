@@ -6,7 +6,7 @@ const navigation = [
   { label: 'About', href: '#about' },
   { label: 'Programs', href: '#programs' },
   { label: 'How it works', href: '#how-it-works' },
-  { label: 'Register now', href: '#registration' },
+  { label: 'Register now', href: '#registration', isCta: true },
 ];
 
 export default function Header() {
@@ -41,10 +41,13 @@ export default function Header() {
 
         <nav className="site-header__desktop" aria-label="Main navigation">
           <ul className="site-header__links">
-            {navigation.map(({ label, href }) => (
-              <li key={label}>
-                <a className={label === 'Register now' ? 'site-header__cta' : undefined} href={href}>
-                  {label}
+            {navigation.map((item) => (
+              <li key={item.href}>
+                <a
+                  className={item.isCta ? 'site-header__cta' : undefined}
+                  href={item.href}
+                >
+                  {item.label}
                 </a>
               </li>
             ))}
@@ -74,9 +77,11 @@ export default function Header() {
             hidden={!isMenuOpen}
           >
             <ul>
-              {navigation.map(({ label, href }) => (
-                <li key={label}>
-                  <a href={href} onClick={() => setIsMenuOpen(false)}>{label}</a>
+              {navigation.map((item) => (
+                <li key={item.href}>
+                  <a href={item.href} onClick={() => setIsMenuOpen(false)}>
+                    {item.label}
+                  </a>
                 </li>
               ))}
             </ul>

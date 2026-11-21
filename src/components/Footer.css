@@ -37,7 +37,7 @@
 
 .site-footer__contact,
 .site-footer__copyright {
-  color: #c8d5db;
+  color: var(--color-footer-text);
   font-size: 0.875rem;
 }
 

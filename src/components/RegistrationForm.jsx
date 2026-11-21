@@ -17,6 +17,9 @@ const sessionOptions = [
   { value: 'weekend', label: 'Weekend' },
 ];
 
+const fieldOrder = ['fullName', 'email', 'program', 'consent'];
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 function validate(values) {
   const errors = {};
 
@@ -24,7 +27,7 @@ function validate(values) {
     errors.fullName = 'Please enter your full name (at least 2 characters).';
   }
 
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email.trim())) {
+  if (!emailPattern.test(values.email.trim())) {
     errors.email = 'Please enter a valid email address.';
   }
 
@@ -55,34 +58,35 @@ export default function RegistrationForm() {
     const nextValue = type === 'checkbox' ? checked : value;
 
     setValues((current) => ({ ...current, [name]: nextValue }));
+    setErrors((current) => {
+      if (!current[name]) return current;
 
-    if (errors[name]) {
-      setErrors((current) => {
-        const next = { ...current };
-        delete next[name];
-        return next;
-      });
-    }
-
-    if (isConfirmed) setIsConfirmed(false);
+      const nextErrors = { ...current };
+      delete nextErrors[name];
+      return nextErrors;
+    });
+    setIsConfirmed(false);
   }
 
   function handleSubmit(event) {
     event.preventDefault();
+
     const nextErrors = validate(values);
     setErrors(nextErrors);
 
-    if (Object.keys(nextErrors).length > 0) {
+    const firstInvalidField = fieldOrder.find((field) => nextErrors[field]);
+    if (firstInvalidField) {
       setIsConfirmed(false);
-      const firstInvalidName = Object.keys(nextErrors)[0];
-      formRef.current?.elements.namedItem(firstInvalidName)?.focus();
+      formRef.current?.elements.namedItem(firstInvalidField)?.focus();
       return;
     }
 
     setIsConfirmed(true);
   }
 
-  const errorEntries = Object.entries(errors);
+  const errorEntries = fieldOrder
+    .filter((field) => errors[field])
+    .map((field) => [field, errors[field]]);
 
   return (
     <section className="registration" id="registration" aria-labelledby="registration-heading">
