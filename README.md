@@ -2,6 +2,8 @@
 
 A mobile-first, single-page React registration landing page built from the supplied Aster Path desktop (1440px) and mobile (390px) design references. The page is frontend-only: the registration form validates locally and displays an on-page confirmation. No data is transmitted, stored or shared.
 
+**Live preview:** https://aster-path-registration.vercel.app
+
 ## Tech stack
 
 - React 18

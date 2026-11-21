@@ -6,7 +6,7 @@ Date: 21 November 2026
 
 Deliverables
 - Public GitHub repository URL: ______________________________________________
-- Live HTTPS deployment URL (Vercel or Netlify): _____________________________
+- Live HTTPS deployment URL (Vercel): https://aster-path-registration.vercel.app
 - README.md: included in the repository root
 - Testing evidence: QA_RESULTS.csv and evidence/screenshots/ in the repository
 
@@ -24,6 +24,7 @@ Verification carried out
 - Keyboard navigation, focus states and form validation states tested
 - All raster assets confirmed under 200 KB
 - npm audit: 0 vulnerabilities after upgrading to Vite 8.3.8
+- Live deployment re-tested: 68/68 checks passed on the public Vercel URL
 
 Notes for reviewer
 ______________________________________________________________________________
