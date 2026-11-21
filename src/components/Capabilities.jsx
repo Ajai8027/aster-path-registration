@@ -1,3 +1,6 @@
+import communityIcon from '../assets/icon_community.svg';
+import flexibleIcon from '../assets/icon_flexible.svg';
+import guidedIcon from '../assets/icon_guided.svg';
 import './Capabilities.css';
 
 const features = [
@@ -5,19 +8,19 @@ const features = [
     number: '01',
     title: 'Mentor-led learning',
     description: 'Clear guidance from experienced educators.',
-    icon: '/assets/icon_guided.svg',
+    icon: guidedIcon,
   },
   {
     number: '02',
     title: 'Built for your schedule',
     description: 'Evening and weekend learning options.',
-    icon: '/assets/icon_flexible.svg',
+    icon: flexibleIcon,
   },
   {
     number: '03',
     title: 'Grow together',
     description: 'A supportive learning community.',
-    icon: '/assets/icon_community.svg',
+    icon: communityIcon,
   },
 ];
 

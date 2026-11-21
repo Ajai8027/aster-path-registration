@@ -18,4 +18,6 @@ Production build output: evidence/build.log
 
 Live deployment verification: the same suite was run against https://aster-path-registration.vercel.app and again produced 68/68 passes. Results: evidence/live-test-results.json; screenshots: evidence/screenshots/live/.
 
+Standalone verification: `npm run build:standalone` produces a single self-contained HTML file. Both dist/index.html and standalone.html were opened via file:// in Chrome and Firefox; each rendered the full page, loaded all five images, showed the four validation errors on empty submit and produced zero console errors. Details: evidence/standalone-test.txt.
+
 Note on Firefox: winget reported Firefox 160.0.1 as installed but no firefox.exe was present at its registered install location. The Firefox checks above therefore used a genuine standalone Firefox 159.0 binary already available locally. This is real Firefox engine testing, not an emulation.

@@ -1,3 +1,4 @@
+import heroUrl from '../assets/hero_learning.svg';
 import './Hero.css';
 
 export default function Hero() {
@@ -22,7 +23,7 @@ export default function Hero() {
         </div>
         <div className="hero__art">
           <img
-            src="/assets/hero_learning.svg"
+            src={heroUrl}
             alt="Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support"
             width="680"
             height="550"

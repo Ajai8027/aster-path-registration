@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import logoUrl from '../assets/aster_path_logo.svg';
 import './Header.css';
 
 const navigation = [
@@ -31,7 +32,7 @@ export default function Header() {
       <div className="container site-header__inner">
         <a className="site-header__brand" href="#top" aria-label="Aster Path Learning Studio, home">
           <img
-            src="/assets/aster_path_logo.svg"
+            src={logoUrl}
             alt="Aster Path Learning Studio"
             width="380"
             height="90"

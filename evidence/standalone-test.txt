@@ -1,0 +1,20 @@
+STANDALONE HTML VERIFICATION
+
+Date: 21 November 2026
+Build: `npm run build:standalone` (single-file Vite build with inlined CSS, JS and images)
+
+Files checked by opening them directly with the file:// protocol:
+- dist/index.html
+- standalone.html (copy of the single-file build, provided at the project root for convenience)
+
+Browsers: Google Chrome 158.0.8127.37 and Mozilla Firefox 159.0 (headless)
+
+Results
+- Chrome, dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
+- Chrome, standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
+- Firefox, dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
+- Firefox, standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
+
+Build output: dist contains only index.html (168,513 bytes). It has one inline <script>, one inline <style>, five data:image/svg+xml URIs and zero external src/href references.
+
+Note: the source index.html remains the Vite development entry and still needs to be served with `npm run dev`. The standalone file is the built output and is the correct file to open by double-clicking.

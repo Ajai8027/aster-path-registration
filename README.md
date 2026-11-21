@@ -9,6 +9,7 @@ A mobile-first, single-page React registration landing page built from the suppl
 - React 18
 - Vite 8
 - Plain external CSS (no UI framework, no validation library, no runtime dependencies beyond React)
+- `vite-plugin-singlefile` (dev only) for the double-clickable standalone build
 
 ## Requirements
 
@@ -27,19 +28,24 @@ npm run dev
 # 3. Open the local URL printed by Vite (usually http://localhost:5173)
 ```
 
+The root `index.html` is the Vite development entry. It contains JSX and must be served by Vite — opening it directly with `file://` will show a blank page. Use the standalone file described below if you want to double-click an HTML file.
+
 ## Production build and preview
 
 ```bash
-npm run build      # outputs the optimised site to dist/
-npm run preview    # serves dist/ locally for a final check
+npm run build              # outputs the optimised site to dist/
+npm run build:standalone   # builds and also writes standalone.html at the project root
+npm run preview            # serves dist/ locally for a final check
 ```
+
+The build uses `vite-plugin-singlefile`, so `dist/index.html` contains the CSS, JavaScript and all brand images inline. You can open `dist/index.html` or `standalone.html` directly from disk in a browser — no local server or network connection is required.
 
 ## Project structure
 
 ```
 aster-path-landing/
-├── public/assets/              # supplied logo, hero illustration and icons (SVG + PNG)
 ├── src/
+│   ├── assets/                 # supplied logo, hero illustration and icons (SVG + PNG)
 │   ├── main.jsx                # React entry point
 │   ├── App.jsx                 # page composition and skip link
 │   ├── components/
@@ -49,10 +55,13 @@ aster-path-landing/
 │   │   ├── RegistrationForm.jsx / .css  # accessible form and local validation
 │   │   └── Footer.jsx / .css   # brand, links and copyright
 │   └── styles/base.css         # design tokens, reset, shared utility classes
-├── index.html
+├── scripts/create-standalone.mjs  # copies the single-file build to standalone.html
+├── index.html                  # Vite development entry (must be served)
+├── standalone.html             # generated single-file page (open directly)
+├── vite.config.js              # single-file build configuration
 ├── netlify.toml
 ├── QA_RESULTS.csv              # completed test record
-├── evidence/                   # build log and screenshots
+├── evidence/                   # build log, screenshots and test results
 └── COMPLETION_NOTE.txt         # submission summary template
 ```
 
@@ -86,11 +95,11 @@ Errors appear inline beside each field, are linked with `aria-invalid` and `aria
 
 ## Assets and performance
 
-All supplied PNG assets are under 200 KB (largest: 94 KB design reference; hero illustration: 29 KB). SVGs are used directly for crisp scaling; PNG versions are included from the source pack as fallbacks. No external or unverified assets are loaded.
+All supplied PNG assets are under 200 KB (hero illustration: 29 KB). SVGs are imported from `src/assets/` and inlined into the standalone build; PNG versions from the source pack are kept alongside them. No external or unverified assets are loaded.
 
 ## Testing
 
-`QA_RESULTS.csv` records the actual results of the 14 supplied test cases. Screenshots at 375, 390, 768, 1024 and 1440px in Chrome and Firefox are stored in `evidence/screenshots/`, and the production build output is in `evidence/build.log`.
+`QA_RESULTS.csv` records the actual results of the test cases. Screenshots at 375, 390, 768, 1024 and 1440px in Chrome and Firefox are stored in `evidence/screenshots/`, and the production build output is in `evidence/build.log`. The direct-file standalone check is recorded in `evidence/standalone-test.txt`; served-build and live-deployment results are in `evidence/test-results.json` and `evidence/live-test-results.json`.
 
 ## Deployment
 

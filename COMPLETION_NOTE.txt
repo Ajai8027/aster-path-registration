@@ -8,7 +8,8 @@ Deliverables
 - Public GitHub repository URL: ______________________________________________
 - Live HTTPS deployment URL (Vercel): https://aster-path-registration.vercel.app
 - README.md: included in the repository root
-- Testing evidence: QA_RESULTS.csv and evidence/screenshots/ in the repository
+- Testing evidence: QA_RESULTS.csv and evidence/ in the repository
+- Standalone page: standalone.html (open directly; no server needed)
 
 Summary
 Implemented the supplied desktop (1440px) and mobile (390px) Figma references
@@ -18,13 +19,14 @@ assets and exact campaign copy, and includes accessible local-only form
 validation with an on-page confirmation. No data is transmitted or stored.
 
 Verification carried out
-- Production build: npm run build (see evidence/build.log)
+- Production build: npm run build:standalone (see evidence/build.log)
 - Responsive checks at 375, 390, 768, 1024 and 1440px
 - Browsers: Google Chrome 158.0.8127.37 and Mozilla Firefox 159.0 (68/68 automated checks passed)
 - Keyboard navigation, focus states and form validation states tested
 - All raster assets confirmed under 200 KB
 - npm audit: 0 vulnerabilities after upgrading to Vite 8.3.8
 - Live deployment re-tested: 68/68 checks passed on the public Vercel URL
+- Standalone file:// check: rendered in Chrome and Firefox with 0 console errors (evidence/standalone-test.txt)
 
 Notes for reviewer
 ______________________________________________________________________________
