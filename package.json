@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "build:standalone": "vite build && node scripts/create-standalone.mjs",
+    "build": "vite build && node scripts/create-standalone.mjs",
+    "build:standalone": "npm run build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,20 +1,28 @@
-STANDALONE HTML VERIFICATION
+SELF-CONTAINED AND DEV ENTRY VERIFICATION
 
 Date: 21 November 2026
-Build: `npm run build:standalone` (single-file Vite build with inlined CSS, JS and images)
+Build: `npm run build` (Vite single-file build, then copy of dist/index.html to the root index.html and standalone.html)
 
 Files checked by opening them directly with the file:// protocol:
-- dist/index.html
-- standalone.html (copy of the single-file build, provided at the project root for convenience)
+- index.html (root file; this is the page to double-click)
+- standalone.html (generated alias)
+- dist/index.html (build output)
+
+Also checked:
+- http://localhost:5173 served by `npm run dev` from src/index.html
 
 Browsers: Google Chrome 158.0.8127.37 and Mozilla Firefox 159.0 (headless)
 
 Results
-- Chrome, dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
-- Chrome, standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
-- Firefox, dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
-- Firefox, standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console errors.
+- Chrome, file index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, file standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, file dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Chrome, dev server: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, file index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, file standalone.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, file dist/index.html: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
+- Firefox, dev server: root rendered (11,973 chars), 5/5 images loaded, empty submit showed 4 errors, 0 console/HTTP errors.
 
-Build output: dist contains only index.html (168,513 bytes). It has one inline <script>, one inline <style>, five data:image/svg+xml URIs and zero external src/href references.
+Build output: dist contains only index.html (168,809 bytes). It has one inline <script>, one inline <style>, five data:image/svg+xml URIs, an inline data-URI favicon and zero external src/href references.
 
-Note: the source index.html remains the Vite development entry and still needs to be served with `npm run dev`. The standalone file is the built output and is the correct file to open by double-clicking.
+Note: src/index.html is the Vite development entry and is served by `npm run dev`. The root index.html is generated build output and is refreshed by `npm run build`; do not edit it by hand.

@@ -9,7 +9,7 @@ A mobile-first, single-page React registration landing page built from the suppl
 - React 18
 - Vite 8
 - Plain external CSS (no UI framework, no validation library, no runtime dependencies beyond React)
-- `vite-plugin-singlefile` (dev only) for the double-clickable standalone build
+- `vite-plugin-singlefile` (dev only) for the generated self-contained HTML files
 
 ## Requirements
 
@@ -28,17 +28,17 @@ npm run dev
 # 3. Open the local URL printed by Vite (usually http://localhost:5173)
 ```
 
-The root `index.html` is the Vite development entry. It contains JSX and must be served by Vite — opening it directly with `file://` will show a blank page. Use the standalone file described below if you want to double-click an HTML file.
+The root `index.html` is the generated, self-contained page — you can double-click it. The Vite development entry is `src/index.html`; `npm run dev` serves that file with hot reload. Do not edit the root `index.html` by hand.
 
 ## Production build and preview
 
 ```bash
-npm run build              # outputs the optimised site to dist/
-npm run build:standalone   # builds and also writes standalone.html at the project root
+npm run build              # builds dist/index.html, then copies it to index.html and standalone.html
+npm run build:standalone   # alias for npm run build
 npm run preview            # serves dist/ locally for a final check
 ```
 
-The build uses `vite-plugin-singlefile`, so `dist/index.html` contains the CSS, JavaScript and all brand images inline. You can open `dist/index.html` or `standalone.html` directly from disk in a browser — no local server or network connection is required.
+Every build uses `vite-plugin-singlefile`, so `dist/index.html` contains the CSS, JavaScript, five brand SVGs and the favicon inline. The build then copies it to the root `index.html` and `standalone.html`. Open any of those three files directly from disk in a browser — no local server or network connection is required.
 
 ## Project structure
 
@@ -46,19 +46,20 @@ The build uses `vite-plugin-singlefile`, so `dist/index.html` contains the CSS, 
 aster-path-landing/
 ├── src/
 │   ├── assets/                 # supplied logo, hero illustration and icons (SVG + PNG)
-│   ├── main.jsx                # React entry point
-│   ├── App.jsx                 # page composition and skip link
 │   ├── components/
 │   │   ├── Header.jsx / .css   # brand, desktop nav and accessible mobile menu
 │   │   ├── Hero.jsx / .css     # headline, CTAs and hero illustration
 │   │   ├── Capabilities.jsx / .css  # three numbered feature cards
 │   │   ├── RegistrationForm.jsx / .css  # accessible form and local validation
 │   │   └── Footer.jsx / .css   # brand, links and copyright
-│   └── styles/base.css         # design tokens, reset, shared utility classes
-├── scripts/create-standalone.mjs  # copies the single-file build to standalone.html
-├── index.html                  # Vite development entry (must be served)
-├── standalone.html             # generated single-file page (open directly)
-├── vite.config.js              # single-file build configuration
+│   ├── styles/base.css         # design tokens, reset, shared utility classes
+│   ├── index.html              # Vite development entry (served by npm run dev)
+│   ├── main.jsx                # React entry point
+│   └── App.jsx                 # page composition and skip link
+├── scripts/create-standalone.mjs  # copies dist/index.html to index.html and standalone.html
+├── index.html                  # generated self-contained page (open directly)
+├── standalone.html             # generated alias (open directly)
+├── vite.config.js              # Vite root src, single-file output to dist
 ├── netlify.toml
 ├── QA_RESULTS.csv              # completed test record
 ├── evidence/                   # build log, screenshots and test results
@@ -99,7 +100,7 @@ All supplied PNG assets are under 200 KB (hero illustration: 29 KB). SVGs are im
 
 ## Testing
 
-`QA_RESULTS.csv` records the actual results of the test cases. Screenshots at 375, 390, 768, 1024 and 1440px in Chrome and Firefox are stored in `evidence/screenshots/`, and the production build output is in `evidence/build.log`. The direct-file standalone check is recorded in `evidence/standalone-test.txt`; served-build and live-deployment results are in `evidence/test-results.json` and `evidence/live-test-results.json`.
+`QA_RESULTS.csv` records the actual results of the test cases. Screenshots at 375, 390, 768, 1024 and 1440px in Chrome and Firefox are stored in `evidence/screenshots/`, and the production build output is in `evidence/build.log`. Direct-file and dev-server checks are recorded in `evidence/standalone-test.txt`; served-build and live-deployment results are in `evidence/test-results.json` and `evidence/live-test-results.json`.
 
 ## Deployment
 
