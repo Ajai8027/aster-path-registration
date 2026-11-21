@@ -16,6 +16,8 @@ Screenshots: evidence/screenshots/ (full-page captures for each browser and widt
 Raw machine-readable results: evidence/test-results.json
 Production build output: evidence/build.log
 
+Source repository: https://github.com/Ajai8027/aster-path-registration
+
 Live deployment verification: the same suite was run against https://aster-path-registration.vercel.app and again produced 68/68 passes. Results: evidence/live-test-results.json; screenshots: evidence/screenshots/live/.
 
 Standalone and dev-entry verification: `npm run build` produces one self-contained HTML file and copies it to the root index.html and standalone.html. All three files were opened via file:// in Chrome and Firefox; the Vite dev entry src/index.html was also served with `npm run dev`. All eight checks rendered the full page, loaded five images, showed four validation errors on empty submit and produced zero console/HTTP errors. Details: evidence/standalone-test.txt.
