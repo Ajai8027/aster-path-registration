@@ -1,0 +1,119 @@
+.capabilities {
+  padding-block: 8px 72px;
+}
+
+.capabilities .capabilities__eyebrow {
+  min-height: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.8125rem;
+}
+
+.capabilities .capabilities__heading {
+  margin-bottom: 13px;
+}
+
+.capabilities__list {
+  display: grid;
+  gap: 12px;
+}
+
+.capabilities__card {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-height: 77px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
+}
+
+.capabilities__card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.capabilities__number {
+  color: var(--color-green);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.capabilities__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.capabilities__title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.capabilities__description {
+  margin-top: 4px;
+  color: var(--color-slate);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .capabilities {
+    padding-block: 32px 88px;
+  }
+
+  .capabilities .capabilities__eyebrow {
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+
+  .capabilities .capabilities__heading {
+    margin-bottom: 24px;
+  }
+
+  .capabilities__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .capabilities__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    min-height: 175px;
+    padding: 26px;
+    border-radius: var(--radius-lg);
+  }
+
+  .capabilities__card-top {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .capabilities__icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .capabilities__title {
+    font-size: 1.375rem;
+  }
+
+  .capabilities__description {
+    margin-top: 8px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .capabilities__list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

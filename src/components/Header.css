@@ -1,0 +1,146 @@
+.site-header {
+  position: relative;
+  z-index: 10;
+  background: var(--color-white);
+  box-shadow: 0 1px 0 rgba(23, 43, 53, 0.06);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 74px;
+  gap: 16px;
+}
+
+.site-header__brand {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.site-header__brand img {
+  width: 150px;
+  height: auto;
+}
+
+.site-header__desktop {
+  display: none;
+}
+
+.site-header__mobile {
+  position: relative;
+}
+
+.site-header__menu-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  background: var(--color-panel);
+}
+
+.site-header__menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 18px;
+}
+
+.site-header__menu-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--color-navy);
+}
+
+.site-header__mobile-nav {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  min-width: 210px;
+  padding: 10px;
+  border-radius: 12px;
+  background: var(--color-white);
+  box-shadow: 0 14px 34px rgba(23, 43, 53, 0.16);
+}
+
+.site-header__mobile-nav[hidden] {
+  display: none;
+}
+
+.site-header__mobile-nav ul {
+  display: grid;
+  gap: 2px;
+}
+
+.site-header__mobile-nav a {
+  display: block;
+  padding: 11px 12px;
+  border-radius: 8px;
+  color: var(--color-navy-deep);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-header__mobile-nav a:hover {
+  background: var(--color-panel);
+}
+
+@media (min-width: 768px) {
+  .site-header__inner {
+    min-height: 104px;
+  }
+
+  .site-header__brand img {
+    width: 190px;
+  }
+
+  .site-header__desktop {
+    display: block;
+  }
+
+  .site-header__mobile {
+    display: none;
+  }
+
+  .site-header__links {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+
+  .site-header__links a {
+    color: var(--color-navy-deep);
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .site-header__links a:hover {
+    color: var(--color-green);
+  }
+
+  .site-header__links .site-header__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 195px;
+    min-height: 52px;
+    padding: 0 22px;
+    border-radius: 14px;
+    background: var(--color-navy);
+    color: var(--color-white);
+    font-size: 1.0625rem;
+    font-weight: 700;
+  }
+
+  .site-header__links .site-header__cta:hover {
+    background: var(--color-green);
+    color: var(--color-white);
+  }
+}

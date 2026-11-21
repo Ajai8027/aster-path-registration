@@ -1,0 +1,19 @@
+ASTER PATH LANDING PAGE - TEST SUMMARY
+
+Date: 21 November 2026
+Build under test: production output of `npm run build`, served with `npm run preview` on http://localhost:4173
+Tooling: Playwright driving installed Google Chrome 158.0.8127.37 and a standalone Mozilla Firefox 159.0 binary in headless mode.
+
+Coverage
+- 5 viewport widths (375, 390, 768, 1024, 1440px) in each browser.
+- Per width: horizontal overflow, semantic landmarks, one H1, three capability cards, in-page anchor resolution, image alt text.
+- Interaction: mobile menu open and Escape-close with focus return, empty submit, invalid email, unchecked consent, valid local confirmation, external request monitoring.
+- First-Tab keyboard check reaches the skip link in both browsers.
+
+Result: 68 of 68 automated checks passed. No external network requests were made by the page.
+
+Screenshots: evidence/screenshots/ (full-page captures for each browser and width, plus confirmation state).
+Raw machine-readable results: evidence/test-results.json
+Production build output: evidence/build.log
+
+Note on Firefox: winget reported Firefox 160.0.1 as installed but no firefox.exe was present at its registered install location. The Firefox checks above therefore used a genuine standalone Firefox 159.0 binary already available locally. This is real Firefox engine testing, not an emulation.

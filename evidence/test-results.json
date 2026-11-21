@@ -1,0 +1,1160 @@
+{
+  "baseUrl": "http://localhost:4173",
+  "generatedAt": "2026-11-21T08:04:49.724Z",
+  "browsers": {
+    "chrome": {
+      "launched": true,
+      "version": "158.0.8127.37",
+      "widths": {
+        "375": {
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "390": {
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "768": {
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "1024": {
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "1440": {
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        }
+      },
+      "externalRequests": []
+    },
+    "firefox": {
+      "launched": true,
+      "version": "159.0",
+      "widths": {
+        "375": {
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "390": {
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "768": {
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "1024": {
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        },
+        "1440": {
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "headers": 1,
+          "mains": 1,
+          "footers": 1,
+          "h1": 1,
+          "cards": 3,
+          "heroImgAlt": "Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support",
+          "iconAlts": [
+            "",
+            "",
+            ""
+          ],
+          "anchors": [
+            {
+              "href": "#main-content",
+              "targetExists": true
+            },
+            {
+              "href": "#top",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#about",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#how-it-works",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#programs",
+              "targetExists": true
+            },
+            {
+              "href": "#registration",
+              "targetExists": true
+            }
+          ]
+        }
+      },
+      "externalRequests": []
+    }
+  },
+  "checks": [
+    {
+      "id": "chrome-keyboard-first",
+      "name": "chrome: first Tab reaches skip link",
+      "status": "PASS",
+      "detail": "{\"className\":\"skip-link\",\"text\":\"Skip to main content\"}"
+    },
+    {
+      "id": "chrome-375-scroll",
+      "name": "chrome 375px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=375, innerWidth=375"
+    },
+    {
+      "id": "chrome-375-landmarks",
+      "name": "chrome 375px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "chrome-375-cards",
+      "name": "chrome 375px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "chrome-375-anchors",
+      "name": "chrome 375px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "chrome-375-alt",
+      "name": "chrome 375px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "chrome-390-scroll",
+      "name": "chrome 390px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=390, innerWidth=390"
+    },
+    {
+      "id": "chrome-390-landmarks",
+      "name": "chrome 390px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "chrome-390-cards",
+      "name": "chrome 390px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "chrome-390-anchors",
+      "name": "chrome 390px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "chrome-390-alt",
+      "name": "chrome 390px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "chrome-768-scroll",
+      "name": "chrome 768px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=768, innerWidth=768"
+    },
+    {
+      "id": "chrome-768-landmarks",
+      "name": "chrome 768px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "chrome-768-cards",
+      "name": "chrome 768px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "chrome-768-anchors",
+      "name": "chrome 768px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "chrome-768-alt",
+      "name": "chrome 768px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "chrome-1024-scroll",
+      "name": "chrome 1024px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=1024, innerWidth=1024"
+    },
+    {
+      "id": "chrome-1024-landmarks",
+      "name": "chrome 1024px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "chrome-1024-cards",
+      "name": "chrome 1024px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "chrome-1024-anchors",
+      "name": "chrome 1024px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "chrome-1024-alt",
+      "name": "chrome 1024px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "chrome-1440-scroll",
+      "name": "chrome 1440px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=1440, innerWidth=1440"
+    },
+    {
+      "id": "chrome-1440-landmarks",
+      "name": "chrome 1440px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "chrome-1440-cards",
+      "name": "chrome 1440px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "chrome-1440-anchors",
+      "name": "chrome 1440px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "chrome-1440-alt",
+      "name": "chrome 1440px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "chrome-menu-open",
+      "name": "chrome: mobile menu opens",
+      "status": "PASS",
+      "detail": "aria-expanded=true, visible=true"
+    },
+    {
+      "id": "chrome-menu-escape",
+      "name": "chrome: Escape closes menu and restores focus",
+      "status": "PASS",
+      "detail": "aria-expanded=false, focus=site-header__menu-button"
+    },
+    {
+      "id": "chrome-form-empty",
+      "name": "chrome: empty submit shows 4 accessible errors",
+      "status": "PASS",
+      "detail": "errors=4, focus=field-fullName"
+    },
+    {
+      "id": "chrome-form-summary",
+      "name": "chrome: error summary is announced",
+      "status": "PASS",
+      "detail": "role=alert summary visible"
+    },
+    {
+      "id": "chrome-form-consent",
+      "name": "chrome: unchecked consent blocks confirmation",
+      "status": "PASS",
+      "detail": "[\"Please confirm you agree to be contacted about Aster Path learning programs.\"]"
+    },
+    {
+      "id": "chrome-form-email",
+      "name": "chrome: malformed email is rejected",
+      "status": "PASS",
+      "detail": "[\"Please enter a valid email address.\"]"
+    },
+    {
+      "id": "chrome-form-success",
+      "name": "chrome: valid submit shows local confirmation only",
+      "status": "PASS",
+      "detail": "confirmation=\"Your request is ready. Our registration team can review it once an approved submission service is connected.\", errors=0"
+    },
+    {
+      "id": "chrome-no-network",
+      "name": "chrome: no external network requests",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "firefox-keyboard-first",
+      "name": "firefox: first Tab reaches skip link",
+      "status": "PASS",
+      "detail": "{\"className\":\"skip-link\",\"text\":\"Skip to main content\"}"
+    },
+    {
+      "id": "firefox-375-scroll",
+      "name": "firefox 375px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=375, innerWidth=375"
+    },
+    {
+      "id": "firefox-375-landmarks",
+      "name": "firefox 375px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "firefox-375-cards",
+      "name": "firefox 375px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "firefox-375-anchors",
+      "name": "firefox 375px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "firefox-375-alt",
+      "name": "firefox 375px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "firefox-390-scroll",
+      "name": "firefox 390px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=390, innerWidth=390"
+    },
+    {
+      "id": "firefox-390-landmarks",
+      "name": "firefox 390px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "firefox-390-cards",
+      "name": "firefox 390px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "firefox-390-anchors",
+      "name": "firefox 390px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "firefox-390-alt",
+      "name": "firefox 390px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "firefox-768-scroll",
+      "name": "firefox 768px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=768, innerWidth=768"
+    },
+    {
+      "id": "firefox-768-landmarks",
+      "name": "firefox 768px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "firefox-768-cards",
+      "name": "firefox 768px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "firefox-768-anchors",
+      "name": "firefox 768px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "firefox-768-alt",
+      "name": "firefox 768px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "firefox-1024-scroll",
+      "name": "firefox 1024px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=1024, innerWidth=1024"
+    },
+    {
+      "id": "firefox-1024-landmarks",
+      "name": "firefox 1024px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "firefox-1024-cards",
+      "name": "firefox 1024px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "firefox-1024-anchors",
+      "name": "firefox 1024px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "firefox-1024-alt",
+      "name": "firefox 1024px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "firefox-1440-scroll",
+      "name": "firefox 1440px: no horizontal scroll",
+      "status": "PASS",
+      "detail": "scrollWidth=1440, innerWidth=1440"
+    },
+    {
+      "id": "firefox-1440-landmarks",
+      "name": "firefox 1440px: landmarks and one H1",
+      "status": "PASS",
+      "detail": "header=1, main=1, footer=1, h1=1"
+    },
+    {
+      "id": "firefox-1440-cards",
+      "name": "firefox 1440px: three capability cards",
+      "status": "PASS",
+      "detail": "cards=3"
+    },
+    {
+      "id": "firefox-1440-anchors",
+      "name": "firefox 1440px: all in-page anchors resolve",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "firefox-1440-alt",
+      "name": "firefox 1440px: informative and decorative alt text",
+      "status": "PASS",
+      "detail": "heroAlt=\"Illustration of a learning dashboard showing a mentor-led session, flexible scheduling and community support\", iconAlts=[\"\",\"\",\"\"]"
+    },
+    {
+      "id": "firefox-menu-open",
+      "name": "firefox: mobile menu opens",
+      "status": "PASS",
+      "detail": "aria-expanded=true, visible=true"
+    },
+    {
+      "id": "firefox-menu-escape",
+      "name": "firefox: Escape closes menu and restores focus",
+      "status": "PASS",
+      "detail": "aria-expanded=false, focus=site-header__menu-button"
+    },
+    {
+      "id": "firefox-form-empty",
+      "name": "firefox: empty submit shows 4 accessible errors",
+      "status": "PASS",
+      "detail": "errors=4, focus=field-fullName"
+    },
+    {
+      "id": "firefox-form-summary",
+      "name": "firefox: error summary is announced",
+      "status": "PASS",
+      "detail": "role=alert summary visible"
+    },
+    {
+      "id": "firefox-form-consent",
+      "name": "firefox: unchecked consent blocks confirmation",
+      "status": "PASS",
+      "detail": "[\"Please confirm you agree to be contacted about Aster Path learning programs.\"]"
+    },
+    {
+      "id": "firefox-form-email",
+      "name": "firefox: malformed email is rejected",
+      "status": "PASS",
+      "detail": "[\"Please enter a valid email address.\"]"
+    },
+    {
+      "id": "firefox-form-success",
+      "name": "firefox: valid submit shows local confirmation only",
+      "status": "PASS",
+      "detail": "confirmation=\"Your request is ready. Our registration team can review it once an approved submission service is connected.\", errors=0"
+    },
+    {
+      "id": "firefox-no-network",
+      "name": "firefox: no external network requests",
+      "status": "PASS",
+      "detail": "[]"
+    }
+  ]
+}

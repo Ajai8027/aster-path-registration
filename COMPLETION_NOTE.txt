@@ -1,0 +1,30 @@
+ASTER PATH LEARNING STUDIO - COMPLETION NOTE
+
+Project: Responsive React registration landing page
+Developer: ______________________________
+Date: 21 November 2026
+
+Deliverables
+- Public GitHub repository URL: ______________________________________________
+- Live HTTPS deployment URL (Vercel or Netlify): _____________________________
+- README.md: included in the repository root
+- Testing evidence: QA_RESULTS.csv and evidence/screenshots/ in the repository
+
+Summary
+Implemented the supplied desktop (1440px) and mobile (390px) Figma references
+as one mobile-first React/Vite landing page. The page contains Header, Hero,
+Capabilities, RegistrationForm and Footer components, uses the supplied brand
+assets and exact campaign copy, and includes accessible local-only form
+validation with an on-page confirmation. No data is transmitted or stored.
+
+Verification carried out
+- Production build: npm run build (see evidence/build.log)
+- Responsive checks at 375, 390, 768, 1024 and 1440px
+- Browsers: Google Chrome 158.0.8127.37 and Mozilla Firefox 159.0 (68/68 automated checks passed)
+- Keyboard navigation, focus states and form validation states tested
+- All raster assets confirmed under 200 KB
+- npm audit: 0 vulnerabilities after upgrading to Vite 8.3.8
+
+Notes for reviewer
+______________________________________________________________________________
+______________________________________________________________________________
